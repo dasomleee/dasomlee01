@@ -1,0 +1,238 @@
+@charset"UTF-8"
+
+* { margin: 0; padding: 0; }
+li { list-style: none; display: inline; text-align: center; } /* text-align: ? */
+a { text-decoration: none; }
+img { vertical-align: middle; border: 0; text-align: center; } /* text-align: ? */
+fliedset { border: 0; }
+em, address { font-style:normal; }
+
+
+body { font: 20px '맑은고딕'; font-weight: Regular; color: black; background-color: #ffffff; }
+	a {color: #000000; text-decoration: none; }
+
+
+#wrapper { width: 1200px; margin: 0 auto; }
+
+/*H*/
+
+#header { height: 600px; }
+
+/*로고*/
+
+h3 { margin-left: 50px; padding-top: 80px;  display: inline-block;}
+	h3 img { width: 500px; height: 200px; position: relative; cursor: pointer; }
+
+/*오른쪽 상단*/
+
+#rightUpMenu { margin-right: 50px; padding-top: 170px; z-index: 3; display: inline-block; float: right; font-size: 15px; }
+#rightUpMenu ul { }
+#rightUpMenu li { margin-left: 20px;}
+
+/* 메뉴*/
+
+#gNav { width: 1200px; height: 60px; margin-top: 30px; background-color: black;
+				font-family: Lucida Sans Typewriter; font-weight: Regular; font-size: 16px; }
+#gNav ul { text-align: center; line-height: 60px; }
+#gNav ul li { width: 120px; height: 60px; float: left;  }
+#gNav a { color: #ffffff; }
+	
+	
+
+/*마우스 오버 효과*/
+
+.down { display: none;/**/ width: 120px; position: absolute; z-index: 999;  background: #000000; opacity: 0.7;}
+	#gNav li:hover { background: #000000; opacity: 1; }
+	#gNav li:hover a { color: #ffffff; opacity: 1; }
+
+
+/*하위메뉴 효과*/
+
+.drop:hover .down { display: block; }
+	.down a { display: inline-block; width: 120px; /**/}
+	.down a:hover { background: #000000; opacity: 1; text-decoration: underline; }
+
+
+/*슬라이더 01*/
+
+#content01 { position: relative; width: 1200px; height: 600px;  margin-top: -200px; cursor: pointer; }
+.slider01{ overflow: hidden; /**/ position: absolute; width: 1200px; height: 600px; }
+.slider01 li{ position: absolute;  }
+.slider01 li img{ width: 1200px; height: 600px; }
+
+
+
+/* 이번주 탑 6*/
+
+#content02 { width :1200px; height: 500px; margin-top: 200px;  display: inline-block; }
+#content02 {}
+
+.weeklyTopUp ul { margin: 3px; margin-top: 60px; cursor: pointer; }
+.weeklyTopUp ul li img { width: 193px; height: 290px; }
+
+.weeklyTopDown ul { margin: 3px; margin-top: 3px;  }
+
+
+/*베스트 브랜드*/
+
+#content03 { width :1200px; height: 500px; margin-top: 220px;  display: inline-block; }
+
+.slider03 { overflow: hidden; /**/ position: absolute; width: 1200px; height: 300px; margin-top: 20px;  }
+.slider03 li{ position: absolute;  }
+.slider03 li img{ width: 240px; height: 240px; }
+
+
+/* 커버낫x리 */
+
+#content05 { width: 1200px; height: 1300px; margin-top: 50px; display: inline-block; }
+
+.photo { margin-top: 60px; margin-bottom: 60px; }
+
+.collaBo { margin : 24px; }
+.collaBo li img { width: 280px; height: 330px; margin-top: 60px; cursor: pointer; }
+
+
+	
+/*슬라이더 02*/
+
+#content04 { position: relative; width: 1200px; height: 300px;  margin-top: 300px; cursor: pointer; }
+.slider02{ overflow: hidden; /**/ position: absolute; width: 1200px; height: 250px; }
+.slider02 li{ position: absolute;  }
+
+
+/*#*/
+
+#content06 { width: 1200px; height: 800px; margin-top: 100px; text-align: center;  }
+
+#content06 ul { margin-top: 70px; line-height: 50px;  }
+#content06 ul li { width: 170px; height: 110px; margin: 18px;   }
+	#content06 ul li a { height: 90px; background-color: #000000; color: #ffffff; font-size: 30px; border-radius: 40px; }
+	
+#content06 a:hover  { background-color: #ff00e7; color: #ffffff; }
+
+
+	.bar{ display: inline-block; margin-top: 100px; padding:5px; font-size: 100px; font: 'Lucida Sans Typewriter'; 
+		font-weight: Bold; color:#000000; text-shadow:3px 3px 3px #ff00e7; }
+
+	.searchBox{ margin-top: 150px; margin-left: 600px; position: absolute; transform: translate(-50%, -50%); background: #000000;
+		height: 40px; border-radius: 40px; padding: 10px; }
+
+	.searchBox:hover > .search-txt { width: 300px; padding:0 6px; }
+
+	.searchBox:hover > .search-btn {	background: white; color: #ff00e7; }
+
+	.search-btn{ 	color:#ffffff; float: right; width: 40px; height: 40px;
+		border-radius: 50%; 	background:#1e1e1e; display: flex; justify-content: center;
+		align-items: center; transition: 0.4s; }
+
+	.search-txt { border : none; background : none;	 outline: none;
+		float: left; padding: 0; color: white;  font-size: 15px; transition: 0.4s; line-height: 40px;
+	width: 0px;}
+
+
+
+/*#2*/
+
+#content07 { width: 1200px; height: 1300px; background: #dadada; text-align:center;  display: relative ; }  
+	
+	.box01 { margin-top: 50px; z-index: 100; }
+	.box01 li { margin: 10px; box-shadow: 2px 2px #000;  }
+	
+
+/*기업사상*/
+
+#content08 { width: 1200px; height: 450px; margin-top: 300px; }
+	#content08 li { margin-left: 6px; }
+
+
+/*디자이너*/
+
+#content09 { width: 1200px; height: 300px;  }
+#content09 ul li { display: inline-block; margin: 20px; margin-top: 50px; }
+
+
+#Line { width: 1200px; height: 3px; margin-top: 30px; background: #dadada; }
+
+
+/*sns*/
+
+
+#sns { width: 1200px; height: 150px; margin-top : 50px; }
+
+.snsline { margin: 30px; width: 1200px; height: 10px; color: #dadada; }
+
+.snsP { margin: 20px; }
+
+.snsP li img { width: 80px; height: 80px; margin: 15px; }
+
+
+/* Btext*/
+
+.Tspace { display: inline-block; margin-top: 30px; padding:5px; font-size: 25px; font: 'Lucida Sans Typewriter'; 
+font-weight: Bold; color:#000000; }
+
+.space { margin-top: 8px; padding:3px; font-size: 18px; font: 'Lucida Sans Typewriter'; 
+font-weight: Regular; color:#464646; }
+
+.Bspace { margin-top: 30px; padding:3px; font-size: 25px; font: 'Lucida Sans Typewriter'; 
+font-weight: Bold; color:#000000; }
+
+
+
+
+
+/*팝업 T, 1, 2*/
+
+#pop { width: 1200px; margin: 0 auto; }
+
+#Tpop { position: absolute; top: 0px; left: 150x;  z-index: 999999999; box-shadow: 2px 2px 2px #ff00e7; }
+	#Tpop img { width: 1200px; height: 100px; }
+
+.Tclose { margin:0 auto; padding:0; margin-top: -90px; margin-left: 1120px; font-size: 50px;  }
+.Tclose a { color: #ffffff; }
+
+.Tclose:hover a { color: #ff00e7; font-weight:bold; }
+
+#pop01 { position: absolute; top: 250px; left: 450px; z-index: 999999999; box-shadow: 2px 2px 2px #ff00e7; }
+	#pop01 img { width: 400px; height: 550px; }
+
+.close01 { margin:0 auto; padding:0; margin-top: -45px; margin-left: 358px; font-size: 30px;  }
+.close01 a { color: #ffffff; }
+
+.close01:hover a { color: #ff00e7; font-weight:bold; }
+	
+#pop02 { position: absolute; top: 250px; left: 900px; z-index: 999999999; box-shadow: 2px 2px 2px 2px #ff00e7; }
+	#pop02 img { width: 400px; height: 550px; }
+	
+.close02 {  margin:0 auto; padding:0; margin-top: -45px; margin-left: 358px; font-size: 30px;   }
+.close02 a { color: #ffffff; }
+
+.close02:hover a { color: #ff00e7; font-weight:bold; }
+
+
+/*Footer*/
+
+footer { width: 1200px; height: 380px; margin: 0 auto; background: #000000;
+position: relative; font-family: '맑은고딕'; font-size: 18pt; font-weight: Regular; }
+
+#information { width: 1100px; height: 200px; }
+	.BoldText { margin-left:20px; margin-top: 50px; padding:25px; font-size: 30px; font: '맑은고딕'; 
+	font-weight: Bold; color:#ffffff; }
+
+	.RText { margin-left: 20px; margin-top: 13px; padding:20px; font-size: 20px; font: '맑은고딕'; 
+	font-weight: Regular; color:#ffffff;  }
+
+
+#Line01 { width: 1100px; height: 2px; margin-top: 5px; margin-left: 50px; background: #ffffff; }
+
+
+#siteMap { width: 1100px; height: 180px; }
+#siteMap ul { margin-left: 50px; margin-top: 20px; padding:25px; font-size: 20px; font: '맑은고딕'; 
+	font-weight: Bold; color:#ffffff; }
+#siteMap li {  margin-left: 20px; padding : 20px 0px 0px 52px;  cursor:pointer; }
+#siteMap li a { color: #ffffff; }
+
+
+
+
+

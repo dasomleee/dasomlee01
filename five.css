@@ -1,0 +1,57 @@
+﻿@charset"UTF-8"
+
+*{ margin: 0; padding: 0; }
+li { list-style : none; display: inline; text-align: center; }
+img { vertical-align: middle; border: 0; text-align: center; } /* text-align: ? */
+fliedset { border: 0; }
+em, address { font-style:normal; }
+
+body { font: 20px '맑은고딕'; font-weight: Regular; color: black; background-color: #ffffff; }
+	a {color: #000000; text-decoration: none; }
+	
+#wrapper { width:1200px; margin: 0 auto; }
+#header { margin-top: 50px; }
+	h1 { width: 1200px; height: 500px; }
+
+.bar { display: inline-block; margin: 50px 0px 10px 0px; width: 400px; height: 50px; padding: 10px;
+font-size: 30px; background-color: #000; color: #ffbaf6; }
+.underbar { display: inline-block; margin: 10px; width: 1200px; height: 30px; padding: 10px;
+font-size: 15px; font-family: '배달의민족 한나는 열한살'; background-color: #fff; color: #000; }
+
+#website { display: inline-block; width: 1200px; height: 300px; }
+.dot { margin-left: 10px; margin-top: 10px; }
+.dot a { display: inline-block; margin: 0 auto; padding: 10px; font-size: 50px;
+color: #ffbaf6; cursor: pointer; text-shadow: 2px 2px 2px; #333; }
+.dot a:hover { background-color: #000; color: #fff; text-shadow: 2px 2px 2px #ffbaf6; }
+
+#hanq { display: inline-block; width: 1200px; height: 1450px; }
+
+.slider01 { overflow: hidden; position: absolute; width: 1200px; height: 500px; margin: 20px;  }
+.slider01 li { position: absolute; }
+.slider01 li img { width: 200px; height: 200px; padding: 50px;  }
+
+.slider02 { overflow: hidden; position: absolute; width: 1200px; height: 500px; margin-top: 400px; margin-left: 20px; }
+.slider02 li { position: absolute; }
+.slider02 li img { width: 200px; height: 200px; padding: 50px;  }
+
+.banner { width: 1200px; height: 500px; margin-top: 800px; margin-left: 20px; }
+.banner li img { width: 300px; height: 300px; margin-top: 20px; margin-left: 50px; }
+.banner a:havor { width: 350px; height: 350px;  }
+
+footer { width: 1200px; height: 350px; margin: 0 auto; background: #ffbaf6; color: #fff; 
+position: relative; font-family: '맑은고딕'; font-size: 15pt; font-weight: Regular; }
+
+	.BoldText { margin-left:20px; margin-top: 30px; padding:30px; font-size: 20px; font: '맑은고딕'; 
+	font-weight: Bold; color:#ffffff; }
+
+	.RText { margin-left: 20px; margin-top: 10px; padding:10px; font-size: 20px; font: '맑은고딕'; 
+	font-weight: Regular; color:#ffffff;  }
+
+
+#Line01 { width: 1100px; height: 2px; margin-top: 5px; margin-left: 50px; background: #ffffff; }
+
+#siteMap { width: 1100px; height: 180px; }
+#siteMap ul { margin-left: 30px; margin-top: 5px; padding:25px; font-size: 20px; font: '맑은고딕'; 
+	font-weight: Bold; color:#ffffff; }
+#siteMap li {  margin-left: 50px; padding : 20px 0px 0px 50px;  cursor:pointer; }
+#siteMap li a { color: #ffffff; }
